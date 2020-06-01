@@ -1,0 +1,146 @@
+body {
+	background-image: url("img6.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	/*overflow-y: hidden;*/
+}
+
+.wrapper {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.container {
+	align: center;
+	padding: 0px;
+	position: absolute;
+	/*width: 100%;*/
+	left: 0;
+	right: 0;
+	border-radius: 0px 0px 25px 25px;
+	overflow: hidden;
+	height: 1%;
+	z-index: 1;
+	opacity: 100%;
+}
+.container:hover {
+	height: auto;
+	opacity: 70%;
+}
+
+.navbar-nav {
+	/*z-index: 1;*/
+}
+
+.active {
+	font-weight: 1000;
+	color: #000000;
+}
+a {
+	color: #ffffff;
+} 
+a:hover {
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bolder;
+	border-radius: 20px;
+}
+
+.bg-custom {
+	background-color: #0e69f6;
+}
+
+h1 {
+	font-size: 8.5vw;
+}
+
+#subtitle {
+	font-size:0.66rem;
+	color: #cfcfcf;
+	font-weight: 550;
+}
+
+#resume {
+	width:50px;
+	font-size: 0.65rem;
+	white-space: normal;
+	padding: 2px;
+	margin: 0px;
+}
+
+#sec-2 {
+	background: rgba(158,121,68,0.5);
+
+}
+
+/*Bootstrap 4 breakpoints*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  h1 {font-size:3rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1 {font-size:3.9rem;} /*1rem = 16px*/
+  #subtitle {font-size:1.0rem;}
+  #resume { font-size: 1rem; width: 80px; padding: 3px;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {font-size:3.2rem;} /*1rem = 16px*/
+  #subtitle {font-size:1.rem;}
+  #resume { padding: 2px;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {font-size:4.0vw;} /*1rem = 16px*/
+  #subtitle {font-size:1.5rem;}
+  #resume { font-size: 1.2rem; width: 90px; padding: 4px;}
+}
+
+.col-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-5ths {
+    width: 10%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 10%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 10%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 10%;
+        float: left;
+    }
+}
