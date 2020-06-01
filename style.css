@@ -28,11 +28,15 @@ body {
 	border-radius: 0px 0px 25px 0px;
 	overflow: hidden;
 	z-index: 1;
-	opacity: 50%;
+	opacity: 0.5;
+	-webkit-opacity:0.5;
+	-khtml-opacity: 0.5;
 }
 .container:hover {
 	height: auto;
-	opacity: 70%;
+	opacity: 0.7;
+	-webkit-opacity:0.7;
+	-khtml-opacity: 0.7;
 }
 
 .navbar-nav {
@@ -114,7 +118,11 @@ h1 {
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
 	h1 {font-size:3rem;} /*1rem = 16px*/
-	.container{opacity: 100%; border-radius:0px 0px 20px 20px}
+	.container{
+		opacity: 100%;
+		-webkit-opacity:1;
+		-khtml-opacity: 1;
+	border-radius:0px 0px 20px 20px}
 	.justify-content-center {
 		-ms-flex-pack: center !important;
 		justify-content: center !important;	
