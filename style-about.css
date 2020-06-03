@@ -109,6 +109,7 @@ h2 {
 	scroll-snap-type: mandatory;
 	scroll-snap-type: y mandatory;
 	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 #sec-1 {
 	scroll-snap-align: start;
