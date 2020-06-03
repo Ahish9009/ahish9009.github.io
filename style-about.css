@@ -127,6 +127,7 @@ h2 {
 #sec-2 {
 	/*overflow: scroll;*/
 	background-image: url("img7.svg");
+	-webkit-background-image: url("img7.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -134,7 +135,8 @@ h2 {
 	-o-background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	/*position: relative;*/
+	position: relative;
+	/*top: 0%;*/
 	/*padding-top: 15%;*/
 	height: auto;
 }
