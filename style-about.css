@@ -109,7 +109,7 @@ h2 {
 	/*scroll-snap-type: mandatory;*/
 	/*scroll-snap-type: y mandatory;*/
 	/*overflow-y: scroll;*/
-	/*-webkit-overflow-scrolling: touch;*/
+	-webkit-overflow-scrolling: touch;
 }
 #sec-1 {
 	/*scroll-snap-align: start;*/
@@ -118,16 +118,16 @@ h2 {
 }
 #sec-2 {
 	/*overflow: scroll;*/
-	background-image: url("img6.svg");
+	/*background-image: url("img6.svg");*/
 	/*-webkit-background-image: url("img7.svg");*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	position: relative;
+	/*background-repeat: no-repeat;*/
+	/*background-size: contain;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-position: center center;*/
+	/*background-attachment: fixed;*/
+	/*position: relative;*/
 	/*top: 0%;*/
 	/*padding-top: 15%;*/
 	height: auto;
