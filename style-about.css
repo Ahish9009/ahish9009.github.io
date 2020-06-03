@@ -113,14 +113,14 @@ h2 {
 	scroll-snap-align: start;
 	position: relative;
 	text-align:center;
-	background-image: url("img6.svg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	/*background-image: url("img6.svg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-position: center center;*/
+	/*background-attachment: fixed;*/
 }
 #sec-2 {
 	/*overflow: scroll;*/
@@ -139,7 +139,7 @@ h2 {
 .hobby-sec-title-container {
 	height: 10%;
 	position: sticky;
-	-webkit-position: sticky;
+	position: -webkit-sticky;
 	top: 90%;
 	z-index:1;
 
