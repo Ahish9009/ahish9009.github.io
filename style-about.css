@@ -30,8 +30,8 @@ body {
 	overflow: hidden;
 	z-index: 1;
 	opacity: 0.5;
-	-webkit-opacity:0.5;
-	-khtml-opacity: 0.5;
+	/*-webkit-opacity:0.5;*/
+	/*-khtml-opacity: 0.5;*/
 }
 .container:hover {
 	height: auto;
@@ -139,11 +139,12 @@ h2 {
 }
 
 .content-wrap {
-	overflow: scroll;
+	overflow-x: hidden;
   height: 100vh;
-  /*scroll-snap-type: mandatory;*/
+  scroll-snap-type: mandatory;
   /*scroll-snap-points-y: repeat(100vh);*/
-  /*scroll-snap-type: y mandatory;*/
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 #sec-1 {
 	scroll-snap-align: start;
@@ -168,13 +169,34 @@ h2 {
 	-o-background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	scroll-snap-align: start;
 	position: relative;
 	/*padding-top: 15%;*/
-	height: 100%;
+	height: auto;
+}
+.hobby-sec-title-container {
+	height: 10%;
+	position: sticky;
+	-webkit-position: sticky;
+	top: 90%;
+	z-index:1;
+
+}
+.hobby-sec-title {
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-size: 10vw;
+	background-color: rgb(0,0,0,.85);
+	border-radius: 25px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+.h-title {
+	background-color: black;
 }
 .empty-1 {
-	height: 15%;
+	height: 5%;
+	scroll-snap-align: start;
 }
 .hobby {
 	height: auto;
@@ -199,6 +221,11 @@ h2 {
 }
 .cric {
 	background-image: url("cricket2.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.travel {
+	background-image: url("travel.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -240,6 +267,8 @@ h2 {
 		text-align: right;
 	}
 	.hobby-text {font-size: 0.8rem; padding: 15px;}
+	.hobby-sec-title {font-size: 3vw; padding: 10px}
+	.empty-1 {height: 10%;}
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -261,6 +290,7 @@ h2 {
 		border-radius: 25px;
 	}
 	.hobby-text {font-size: 1.0rem; padding: 15px;}
+	.empty-1 {height: 10%;}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -276,6 +306,8 @@ h2 {
 	a {width:100%;}
 	.active {width:auto;}
 	.hobby-text {font-size: 1.0rem; padding: 15px;}
+	h2 {font-size: 4.5vw;}
+	.empty-1 {height: 10%;}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -292,6 +324,7 @@ h2 {
 	.active {width:auto;}
 	.content1 {font-size:1.2rem;}
 	.hobby-text {font-size: 1.2rem; padding: 15px;}
+	.empty-1 {height: 10%;}
 }
 
 @keyframes fadein {
