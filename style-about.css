@@ -106,23 +106,15 @@ h2 {
 .content-wrap {
 	overflow-x: hidden;
 	height: 100vh;
-	scroll-snap-type: mandatory;
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
+	/*scroll-snap-type: mandatory;*/
+	/*scroll-snap-type: y mandatory;*/
+	/*overflow-y: scroll;*/
 	/*-webkit-overflow-scrolling: touch;*/
 }
 #sec-1 {
-	scroll-snap-align: start;
+	/*scroll-snap-align: start;*/
 	position: relative;
 	text-align:center;
-	/*background-image: url("img6.svg");*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
-	/*background-position: center center;*/
-	/*background-attachment: fixed;*/
 }
 #sec-2 {
 	/*overflow: scroll;*/
@@ -163,7 +155,7 @@ h2 {
 }
 .empty-1 {
 	height: 5%;
-	scroll-snap-align: start;
+	/*scroll-snap-align: start;*/
 }
 .hobby {
 	height: auto;
