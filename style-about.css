@@ -118,8 +118,8 @@ h2 {
 }
 #sec-2 {
 	/*overflow: scroll;*/
-	background-image: url("img7.svg");
-	-webkit-background-image: url("img7.svg");
+	background-image: url("img7-3.svg");
+	/*-webkit-background-image: url("img7.svg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
