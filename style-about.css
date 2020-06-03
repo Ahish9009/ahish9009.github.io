@@ -105,29 +105,30 @@ h2 {
 .content-wrap {
 	overflow-x: hidden;
 	height: 100%;
-	/*scroll-snap-type: mandatory;*/
-	/*scroll-snap-type: y mandatory;*/
+	scroll-snap-type: mandatory;
+	scroll-snap-type: y mandatory;
 	/*overflow-y: scroll;*/
 	-webkit-overflow-scrolling: touch;
 }
 #sec-1 {
-	/*scroll-snap-align: start;*/
+	scroll-snap-align: start;
 	position: relative;
 	text-align:center;
 }
 #sec-2 {
 	/*overflow: scroll;*/
-	background-image: url("img7.svg");
+	/*background-image: url("img7.svg");*/
 	/*-webkit-background-image: url("img7.svg");*/
-	background-repeat: no-repeat;
-	background-size: contain;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+	/*background-size: contain;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-position: center center;*/
+	/*background-attachment: fixed;*/
 	/*position: relative;*/
 	/*top: 0%;*/
+	background-color: rgba(0,0,0,0.5);
 	/*padding-top: 15%;*/
 	height: auto;
 }
@@ -154,7 +155,7 @@ h2 {
 }
 .empty-1 {
 	height: 5%;
-	/*scroll-snap-align: start;*/
+	scroll-snap-align: start;
 }
 .hobby {
 	height: auto;
