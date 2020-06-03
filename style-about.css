@@ -130,6 +130,9 @@ h2 {
 	/*top: 0%;*/
 	background-color: rgba(50,50,50,0.1);
 	backdrop-filter: blur(3px);
+	/*-moz-backdrop-filter: blur(3px);*/
+	/*-o-backdrop-filter: blur(3px);*/
+	/*-ms-backdrop-filter: blur(3px);*/
 	-webkit-backdrop-filter: blur(3px);
 	/*padding-top: 15%;*/
 	height: auto;
