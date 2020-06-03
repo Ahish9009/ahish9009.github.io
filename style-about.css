@@ -117,15 +117,15 @@ h2 {
 }
 #sec-2 {
 	/*overflow: scroll;*/
-	/*background-image: url("img6.svg");*/
-	/*-webkit-background-image: url("img7.svg");*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: contain;*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
-	/*background-position: center center;*/
-	/*background-attachment: fixed;*/
+	background-image: url("img6.svg");
+	-webkit-background-image: url("img7.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 	/*position: relative;*/
 	/*top: 0%;*/
 	/*padding-top: 15%;*/
