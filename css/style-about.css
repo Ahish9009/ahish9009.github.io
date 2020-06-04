@@ -120,21 +120,17 @@ h2 {
 	/*background-image: url("img7.svg");*/
 	/*-webkit-background-image: url("img7.svg");*/
 	/*background-repeat: no-repeat;*/
-	/*background-size: contain;*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	/*background-position: center center;*/
 	/*background-attachment: fixed;*/
 	/*position: relative;*/
 	/*top: 0%;*/
-	background-color: rgba(50,50,50,0.1);
-	backdrop-filter: blur(3px);
-	/*-moz-backdrop-filter: blur(3px);*/
-	/*-o-backdrop-filter: blur(3px);*/
-	/*-ms-backdrop-filter: blur(3px);*/
-	-webkit-backdrop-filter: blur(3px);
-	/*padding-top: 15%;*/
+	background-color: rgba(0,0,0,0.6);
+	/*backdrop-filter: blur(3px);*/
+	/*-webkit-backdrop-filter: blur(3px);*/
 	height: auto;
 }
 .hobby-sec-title-container {
@@ -159,12 +155,15 @@ h2 {
 	background-color: black;
 }
 .empty-1 {
-	height: 5%;
-	scroll-snap-align: start;
+	/*height: 05%;*/
+	/*scroll-snap-align: start;*/
 }
 .hobby {
 	height: auto;
 	padding: 30px;
+	scroll-snap-align: start;
+	padding-top: 15%;
+	margin-top: -10%;
 }
 .hobby-title {
 	/*background-color: rgb(56,70,73,0.7);*/
@@ -177,7 +176,7 @@ h2 {
 }
 .hobby-text {
 	background-color: rgba(0,0,0,0.5);
-	font-size: 0.8rem;
+	font-size: 0.70rem;
 	color: white;
 	padding: 8px;
 	border-radius: 15px;
@@ -263,6 +262,10 @@ h2 {
 	}
 	.hobby-text {font-size: 1.0rem; padding: 15px;}
 	.empty-1 {height: 10%;}
+	.hobby {
+	padding-top: 6%;
+	margin-top: -6%;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
