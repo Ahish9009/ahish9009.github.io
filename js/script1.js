@@ -1,12 +1,14 @@
-console.log(window.scrollY);
+changeSizes();
 
-var h = $('.container').height();
-//console.log(h);
+function changeSizes() {
 
-$('.hobby-sec-title-container').css({top: h-1});
+	var h = $('.container').height();
+	$('.hobby-sec-title-container').css({top: h-1});
 
-var h2 = $('.hobby-sec-title-container').height();
-var h3 = h + h2;
-//console.log('-'+h3+h2/2);
-$('.hobby').css("padding-top", h3+15);
-$('.adj-margin').css("margin-top",'-'+h3);
+	var h2 = $('.hobby-sec-title-container').height();
+	var h3 = h + h2;
+	$('.hobby').css("padding-top", h3+15);
+	$('.adj-margin').css("margin-top",'-'+h3);
+
+}
+
