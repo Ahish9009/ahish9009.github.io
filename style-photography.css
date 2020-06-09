@@ -1,6 +1,3 @@
-/*html {*/
-	/*overflow-x: hidden;*/
-/*}*/
 body {
 	background-image: url("img/img6.svg");
 	background-repeat: no-repeat;
@@ -14,13 +11,11 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 }
-
 .wrapper {
 	overflow: hidden;
 	width: 100%;
 	position: relative;
 }
-
 .container {
 	align: center;
 	padding: 0px;
@@ -37,7 +32,6 @@ body {
 	-webkit-opacity:0.7;
 	-khtml-opacity: 0.7;
 }
-
 .navbar-nav {
 	/*border: 2px dotted;*/
 	width: 100%;
@@ -73,12 +67,9 @@ a:hover {
 	color: #ffffff;
 	border-radius: 0px 0px 10px 10px;
 }
-
-
 .bg-custom {
 	background-color: #000000;
 }
-
 h1 {
 	font-size: 8.5vw;
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -112,6 +103,9 @@ h2 {
 	margin: 0px;
 	padding: 0px;
 	/*height: 30vw;*/
+}
+.pic:hover {
+	opacity: 0.9;
 }
 
 #imgShowCarousel {
