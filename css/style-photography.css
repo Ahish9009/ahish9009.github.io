@@ -82,7 +82,7 @@ h2 {
 }
 
 .pic-h {
-	background-color: black;
+	/*background-color: black;*/
 	background-size: cover;
 	background-position: center center;
 	background-image: url("../img/loading.gif");
@@ -92,7 +92,7 @@ h2 {
 	/*height: 15vw;*/
 }
 .pic-v {
-	background-color: black;
+	/*background-color: black;*/
 	background-size: cover;
 	background-position: center center;
 	background-image: url("../img/loading.gif");
@@ -108,6 +108,7 @@ h2 {
 }
 .pic:hover {
 	opacity: 0.9;
+
 }
 #imgShowCarousel {
 	position: absolute;
