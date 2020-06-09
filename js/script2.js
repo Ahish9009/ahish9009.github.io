@@ -24,7 +24,8 @@ sizeCarousel();
 //lazy load first few carousel images
 carouselLoadImg();
 
-//CALLS ON LOAD END
+//set appropriate padding for tiled images
+setTilesPadding();
 //------------------------------
 
 //------------------------------
@@ -94,5 +95,9 @@ function moveCarousel() {
 	var h = $(window).scrollTop();
 	var newPos = h + 0.1*$(window).height();
 	$('#imgShowCarousel').css("top", newPos+"px");
+}
+function setTilesPadding() {
+	var h = $('.container').height();
+	$('.padding').css("padding-top", h);
 }
 //------------------------------

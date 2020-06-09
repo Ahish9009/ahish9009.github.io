@@ -1,5 +1,5 @@
 body {
-	background-image: url("img/img6.svg");
+	background-image: url("../img/img6.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -43,7 +43,6 @@ body {
 	-ms-flex-pack: left !important;
 	justify-content: left !important;	
 }
-
 .active {
 	font-weight: 1000;
 	width: 40%;
@@ -86,8 +85,7 @@ h2 {
 	background-color: black;
 	background-size: cover;
 	background-position: center center;
-	background-image: url("img/loading.gif");
-	border: 1px solid rgba(0,0,0,0.5);
+	background-image: url("../img/loading.gif");
 	height: 33vw;
 	margin: 0px;
 	padding: 0px;
@@ -97,17 +95,20 @@ h2 {
 	background-color: black;
 	background-size: cover;
 	background-position: center center;
-	background-image: url("img/loading.gif");
-	border: 1px solid rgba(0,0,0,0.5);
+	background-image: url("../img/loading.gif");
 	height: 66vw;
 	margin: 0px;
 	padding: 0px;
 	/*height: 30vw;*/
 }
+.pic{
+	border: 1px solid rgba(250,212,165,1);
+	border: 1px solid rgba(221,229,189,1);
+	border: 1px solid rgba(0,0,0,1);
+}
 .pic:hover {
 	opacity: 0.9;
 }
-
 #imgShowCarousel {
 	position: absolute;
 	top: 10vh;
@@ -118,12 +119,10 @@ h2 {
 	display: none;
 	border-radius: 40px;
 }
-
 .carousel-ele {
 	/*width: 100%;*/
 	border-radius: 40px;
 }
-
 .carouselImg {
 	width:100%;
 	height: 100%;
