@@ -1,7 +1,7 @@
 //------------------------------
 //GLOBAL
 //params
-var n_images = 42;
+var n_images = 70;
 var nCarouselLL = 2;
 //stores id's of already loaded images
 var loaded = new Set();
