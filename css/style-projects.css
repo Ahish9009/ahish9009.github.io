@@ -51,6 +51,10 @@ body {
 	justify-content: left !important;	
 }
 
+.content-wrap {
+	overflow-x: hidden;
+	height: 100%;
+}
 .active {
 	font-weight: 1000;
 	width: 40%;
