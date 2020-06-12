@@ -80,17 +80,26 @@ h1 {
 	-o-animation: fadein 1s; /* Opera < 12.1 */
 	animation: fadein 1s;
 }
-
-
+h2 {
+	font-size: 5.5vw;
+}
 .experience {
 	color: white;
+}
+.stick {
+	position: fixed;
+	/*position: -webkit-sticky;*/
+	left:0;
+	right:0;
+	top: 0px;
+	z-index:1;
 }
 .tabs {
 	background-color: rgba(0,0,0,1);
 	border-radius: 0px 0px 25px 25px;
 }
 .exp-heading {
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(49,150,246,0.8);
 	color: white;
 	border-radius: 0px 0px 0px 25px;
 	border: none;
@@ -104,6 +113,9 @@ h1 {
 	border: none;
 	text-align: center;
 	width: 100%;
+}
+.exp-heading:hover {
+	background-color: rgba(200,200,200,0.7);
 }
 .empty-button {
 	background-color: rgba(0,0,0,0);
@@ -127,6 +139,7 @@ h4 {
 }
 .exp-comp {
 	font-size: 4.0vw;
+	font-weight: 550;
 }
 .exp-time {
 	font-size: 3.4vw;
@@ -163,6 +176,16 @@ h4 {
 .btn {
 	width: 100%;
 }
+.tech-heading {
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	border-radius: 25px;
+	text-align: center;
+	padding: 15px;
+}
+.tech-icons {
+	font-size: 13vw;
+}
 
 .project-item {
 	background-color: rgba(0,0,0,0.9);
@@ -173,7 +196,6 @@ h4 {
 }
 h6 {
 	font-weight: bold;
-	/*text-decoration: underline;*/
 	padding-top: 16px;
 }
 .tcc-dets {
@@ -233,11 +255,13 @@ h6 {
 	.active {width:auto;}
 	.b-right {border-right: 2px solid;}
 	.project-item{font-size:15px;}
+	h2 {font-size: 2.6vw}
+	h4 {font-size: 18px;}
 	h6 {padding-top: 25px;}
 	.exp {margin: 5px;}
-	h4 {font-size: 18px;}
 	.exp-comp {font-size: 15px;}
 	.exp-time {font-size: 11px;}
+	.tech-icons {font-size: 60px;}
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -272,6 +296,7 @@ h6 {
 	.exp {height: 115px;}
 	.exp-comp {font-size: 16px;}
 	.exp-time {font-size: 12px;}
+	.tcc-dets {text-align: left}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
