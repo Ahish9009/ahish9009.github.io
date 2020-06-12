@@ -17,6 +17,10 @@ $('#projects').on('hidden.bs.collapse', function () {
 	$('.proj-heading').css('background-color', 'rgba(0,0,0,1)');
 });
 
+document.ontouchstart = function(e){
+    e.preventDefault();
+}
+
 $(window).resize(function() {setTilesPadding();})
 function setTilesPadding() {
 	var h = $('.container').height();
