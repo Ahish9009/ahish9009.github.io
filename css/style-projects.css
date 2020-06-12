@@ -149,19 +149,29 @@ h4 {
 	background-image: url("../img/icons/ecell.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .cmp-photographyclub {
 	background-image: url("../img/icons/photographyclub.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .cmp-ping {
 	background-image: url("../img/icons/ping.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .cmp-hp {
 	background-image: url("../img/icons/hp.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cmp-cvit {
+	background-image: url("../img/icons/cvit.png");
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -169,6 +179,7 @@ h4 {
 	background-image: url("../img/icons/company.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .exp-desc {
 	/*border-left: 2px dashed;*/
