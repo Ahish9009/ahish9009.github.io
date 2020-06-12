@@ -1,3 +1,6 @@
+html {
+	overflow: hidden;
+}
 body {
 	background-image: url("../img/img6.svg");
 	background-repeat: no-repeat;
