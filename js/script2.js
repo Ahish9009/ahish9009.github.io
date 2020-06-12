@@ -10,10 +10,6 @@ var carouselLoaded = new Set();
 
 //------------------------------
 //CALLS ON LOAD START
-$(window).scroll(function() {
-	loadTiles();
-	moveCarousel();
-});
 
 //lazy-load tile pics
 loadTiles();
@@ -30,6 +26,16 @@ setTilesPadding();
 
 //------------------------------
 //EVENT HANDLING
+
+//lazy load tiles on resize and move carousel if open
+$(window).scroll(function() {
+	loadTiles();
+	moveCarousel();
+});
+
+//set padding on resize
+$(window).resize(function() {setTilesPadding();})
+
 //handle pics being clicked
 $('.pic').click(function() {
 	var e = this.id;
@@ -38,8 +44,10 @@ $('.pic').click(function() {
 	}
 	else { hideCarousel(); }	
 });
+
 //closes carousel if clicked outside
 $('.notCarousel').click(function() {hideCarousel();});
+
 //lazy load carousel images
 $('#imgShowCarousel').on('slid.bs.carousel', function() {carouselLoadImg();})
 //------------------------------
