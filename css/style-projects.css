@@ -10,11 +10,11 @@ body {
 	height: 100vh;
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: visible;
 }
 
 .wrapper {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 100%;
 	position: relative;
 }
