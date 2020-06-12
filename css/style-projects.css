@@ -94,6 +94,9 @@ h2 {
 	top: 0px;
 	z-index:1;
 }
+#experience {
+	overflow: scroll;
+}
 .tabs {
 	background-color: rgba(0,0,0,1);
 	border-radius: 0px 0px 25px 25px;
@@ -198,6 +201,9 @@ h4 {
 	font-size: 13vw;
 }
 
+#projects {
+	overflow: scroll;
+}
 .project-item {
 	background-color: rgba(0,0,0,0.9);
 	color: white;
