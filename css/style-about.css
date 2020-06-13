@@ -140,6 +140,7 @@ h2 {
 	font-weight: 600;
 	font-size: 8vw;
 	background-color: rgb(0,0,0);
+	font-family: 'Raleway', sans-serif;
 	/*border-radius: 25px;*/
 	/*padding-bottom: 2%;*/
 	/*padding-top: 2%;*/
@@ -177,6 +178,7 @@ h2 {
 	color: rgb(225,212,199);
 	padding: 8px;
 	border-radius: 15px;
+	font-family: 'Open Sans', sans-serif;
 
 }
 .cric {
