@@ -14,7 +14,7 @@ body {
 	/*overflow-y: hidden;*/
 }
 .wrapper {
-	overflow-y: scroll;
+	overflow-y: hidden;
 	width: 100%;
 	position: relative;
 }
