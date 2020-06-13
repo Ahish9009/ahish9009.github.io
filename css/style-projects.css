@@ -1,5 +1,5 @@
 html {
-	overflow: hidden;
+	/*overflow: auto;*/
 }
 body {
 	background-image: url("../img/img6.svg");
@@ -10,7 +10,7 @@ body {
 	-o-background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
