@@ -1,22 +1,18 @@
-html {
-	overflow-y: auto;
-}
 body {
-	/*background-image: url("../img/img6.svg");*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
-	/*background-position: center center;*/
-	/*background-attachment: fixed;*/
-	background-color: black;
+	background-image: url("../img/img6.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
 .wrapper {
-	overflow-y: scroll;
+	overflow: hidden;
 	width: 100%;
 	position: relative;
 }
@@ -172,16 +168,6 @@ h2 {
 	.empty-1 {height: 10%;}
 	.pic-v {height: 30vw;}
 	.pic-h {height: 15vw;}
-	body {
-		background-image: url("../img/img6.svg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-	}
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
