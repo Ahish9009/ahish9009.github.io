@@ -148,21 +148,24 @@ h2 {
 	border-radius: 20px;
 	text-align: left;
 
-	margin-top: 5px;
+	margin-top: 10px;
 	max-height: 150px;
 	overflow-x: hidden;
 }
 h4 {
 	font-size: 5vw;
 	font-weight: 600;
+	font-family: 'Mukta Vaani', sans-serif;
 }
 .exp-comp {
 	font-size: 4.0vw;
 	font-weight: 550;
+	font-family: 'Blinker', sans-serif;
 }
 .exp-time {
 	font-size: 3.4vw;
 	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
 }
 .cmp-ecell {
 	background-image: url("../img/icons/ecell.png");
