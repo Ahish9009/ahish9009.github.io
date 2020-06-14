@@ -26,5 +26,5 @@ function setTilesPadding() {
 	var h = $('.container').height();
 	$('.tabs').css("top", h);
 	var h2 = $('.stick').height();
-	$('.padding').css("padding-top", h+h2+50);
+	$('.padding').css("padding-top", h+h2+20);
 }
