@@ -1,7 +1,7 @@
 setTilesPadding();
 
-jQuery('button').click( function(e) {
-    jQuery('.collapse').collapse('hide');
+$('.empty-button').click( function(e) {
+    $('.collapse').collapse('hide');
 });
 
 $('#experience').on('shown.bs.collapse', function () {

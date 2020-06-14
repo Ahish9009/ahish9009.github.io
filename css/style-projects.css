@@ -81,6 +81,7 @@ a:hover {
 
 h1 {
 	font-size: 8.5vw;
+	font-family: 'Expletus Sans', sans-serif;
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 1s; /* Firefox < 16 */
 	-ms-animation: fadein 1s; /* Internet Explorer */
@@ -226,6 +227,7 @@ h4 {
 	padding: 20px;
 	border-radius: 20px;
 	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 }
 h6 {
 	font-weight: bold;
