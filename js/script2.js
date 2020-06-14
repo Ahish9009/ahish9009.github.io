@@ -31,6 +31,7 @@ setTilesPadding();
 $(window).scroll(function() {
 	loadTiles();
 	moveCarousel();
+	setNavOpacity();
 });
 
 //set padding on resize

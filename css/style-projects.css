@@ -151,6 +151,56 @@ h2 {
 	margin-top: 10px;
 	max-height: 150px;
 	overflow-x: hidden;
+
+}
+.exp1 {
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1s; /* Firefox < 16 */
+	-ms-animation: fadein 1s; /* Internet Explorer */
+	-o-animation: fadein 1s; /* Opera < 12.1 */
+	animation: fadein 1s;
+}
+.exp2 {
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1s; /* Firefox < 16 */
+	-ms-animation: fadein 1s; /* Internet Explorer */
+	-o-animation: fadein 1s; /* Opera < 12.1 */
+	animation: fadein 1s;
+}
+.exp3 {
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	-o-animation: fadein 1.5s; /* Opera < 12.1 */
+	animation: fadein 1.5s;
+}
+.exp4 {
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	-ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+	animation: fadein 2s;
+}
+.exp5 {
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.5s; /* Firefox < 16 */
+	-ms-animation: fadein 2.5s; /* Internet Explorer */
+	-o-animation: fadein 2.5s; /* Opera < 12.1 */
+	animation: fadein 2.5s;
+}
+.exp6 {
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
+}
+.exp7 {
+	-webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3.5s; /* Firefox < 16 */
+	-ms-animation: fadein 3.5s; /* Internet Explorer */
+	-o-animation: fadein 3.5s; /* Opera < 12.1 */
+	animation: fadein 3.5s;
 }
 h4 {
 	font-size: 5vw;
