@@ -142,12 +142,11 @@ h2 {
 	
 }
 .exp {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.8);
 	color: white;
 	padding: 10px 20px 10px 20px;
 	border-radius: 20px;
 	text-align: left;
-
 	margin-top: 10px;
 	max-height: 150px;
 	overflow-x: hidden;
