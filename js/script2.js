@@ -39,6 +39,10 @@ $(document).keydown(function(e) {
        // Next
        $(".carousel-control-next").click();
     }
+    if (e.keyCode === 27) {
+       // Next
+	    hideCarousel();
+    }
 });
 
 //lazy load tiles on resize and move carousel if open
