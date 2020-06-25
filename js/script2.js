@@ -22,16 +22,29 @@ carouselLoadImg();
 
 //set appropriate padding for tiled images
 setTilesPadding();
+
+//sets necessary padding for carousel
+moveCarousel();
 //------------------------------
 
 //------------------------------
 //EVENT HANDLING
 
+$(document).keydown(function(e) {
+    if (e.keyCode === 37 || e.keyCode === 72) {
+       // Previous
+       $(".carousel-control-prev").click();
+    }
+    if (e.keyCode === 39 || e.keyCode === 76) {
+       // Next
+       $(".carousel-control-next").click();
+    }
+});
+
 //lazy load tiles on resize and move carousel if open
 $(window).scroll(function() {
 	loadTiles();
-	moveCarousel();
-	setNavOpacity();
+	//setNavOpacity();
 });
 
 //set padding on resize

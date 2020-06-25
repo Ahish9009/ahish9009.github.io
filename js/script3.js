@@ -28,3 +28,4 @@ function setTilesPadding() {
 	var h2 = $('.stick').height();
 	$('.padding').css("padding-top", h+h2+20);
 }
+

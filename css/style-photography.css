@@ -118,8 +118,8 @@ h2 {
 
 }
 #imgShowCarousel {
-	position: absolute;
-	top: 10vh;
+	position: fixed;
+	/*top: 10vh;*/
 	left: 5vw;
 	background-color: rgba(0,0,0,0.7);
 	height: 80vh;
