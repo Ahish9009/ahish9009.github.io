@@ -35,8 +35,6 @@ body {
 }
 .container:hover {
 	height: auto;
-	-webkit-opacity:0.7;
-	-khtml-opacity: 0.7;
 }
 
 .navbar-nav {
@@ -348,7 +346,11 @@ h6 {
 	.exp-comp {font-size: 15px;}
 	.exp-time {font-size: 11px;}
 	.tech-icons {font-size: 60px;}
-	.container:hover {opacity: 0.7;}
+	.container:hover {
+	opacity: 0.7;
+	-webkit-opacity:0.7;
+	-khtml-opacity: 0.7;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
