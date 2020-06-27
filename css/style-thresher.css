@@ -13,6 +13,11 @@ body {
 	/*height: 100%;*/
 	/*width: 100%;*/
 	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.container {
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .row {
 	align: center;
@@ -74,10 +79,10 @@ input[type="number"] {
 	display: none;
 }
 #canvasOutput {
-	max-width: 60vw;
+	width: 85%;
 }
 #imageSrc {
-	max-width: 60vw;
+	width: 85%;
 }
 .caption {
 	color: white;

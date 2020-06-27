@@ -12,60 +12,62 @@
 
 	</head>
 	<body>
-		<div class="row">
-			<div class="col-1"></div>
-			<div class="col-10 header">
-				<h2 class="title">Image Thresholder</h2>
-			</div>
-		</div>
-		<br>
-		<div class="content-container">
+		<div class="container">
 			<div class="row">
-
-				<div class="col-1 col-md-2"></div>
-				<div class="col-10 col-md-8 input">
-					<label class="input-button" for="fileInput"> Choose Image</label> 
-					<br>
-					<input type="file" id="fileInput" name="file">
-
-					<!--input height and width-->
-					<div class="row">
-						<div class="col-3"></div>
-						<div class="col-3">
-							<label for="width">Height</label><br>
-							<input type="number" id="width" name="width" min=1 max=100 value=11> <br>
-						</div>
-						<div class="col-3">
-							<label for="height">Width</label>
-							<br>
-							<input type="number" id="height" name="height" min=1 max=100 value=2>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<!--<div class="col-3"></div>-->
-						<div class="col-12">
-							<label onclick="download()" class="download-button">Download</label> 
-						</div>
-					</div>
+				<div class="col-1"></div>
+				<div class="col-10 header">
+					<h2 class="title">Image Thresholder</h2>
 				</div>
-
 			</div>
 			<br>
-			<div class="row">
-				<div class="col-1 col-sm-2"></div>
-				<div class="col-10 col-sm-8">
-					<div class="output-image">
-						<div class="output-caption caption">
-							<h2>Output</h2>
-						</div> 
-						<canvas onclick="download()" class="" id="canvasOutput"></canvas>
-					</div> <br>
-					<div class="input-image">
-						<div class="input-caption caption">
-							<h2>Input</h2>
+			<div class="content-container">
+				<div class="row">
+
+					<div class="col-1 col-md-2"></div>
+					<div class="col-10 col-md-8 input">
+						<label class="input-button" for="fileInput"> Choose Image</label> 
+						<br>
+						<input type="file" id="fileInput" name="file">
+
+						<!--input height and width-->
+						<div class="row">
+							<div class="col-3"></div>
+							<div class="col-3">
+								<label for="width">Height</label><br>
+								<input type="number" id="width" name="width" min=1 max=100 value=11> <br>
+							</div>
+							<div class="col-3">
+								<label for="height">Width</label>
+								<br>
+								<input type="number" id="height" name="height" min=1 max=100 value=2>
+							</div>
 						</div>
-					<img id="imageSrc" alt="No Image"> <br>
+						<br>
+						<div class="row">
+							<!--<div class="col-3"></div>-->
+							<div class="col-12">
+								<label onclick="download()" class="download-button">Download</label> 
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-1 col-sm-2"></div>
+					<div class="col-10 col-sm-8">
+						<div class="output-image">
+							<div class="output-caption caption">
+								<h2>Output</h2>
+							</div> 
+							<canvas onclick="download()" class="" id="canvasOutput"></canvas>
+						</div> <br>
+						<div class="input-image">
+							<div class="input-caption caption">
+								<h2>Input</h2>
+							</div>
+							<img id="imageSrc" alt="No Image"> <br>
+						</div>
 					</div>
 				</div>
 			</div>
