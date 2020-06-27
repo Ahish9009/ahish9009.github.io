@@ -13,11 +13,27 @@ body {
 	height: 100vh;
 	width: 100vw;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	/*overflow-y: hidden;*/
+}
+body:after{
+      content:"";
+      position:fixed; 
+      top:0;
+      height:100vh;
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+	background-image: url("../img/img6.svg");
+	background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+	background-position: center center;
 }
 .container {
-	overflow-x: hidden;
-	overflow-y: auto;
+	/*overflow-x: hidden;*/
+	/*overflow-y: auto;*/
 }
 .row {
 	align: center;
