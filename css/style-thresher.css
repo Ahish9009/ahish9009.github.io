@@ -36,6 +36,7 @@ body {
 	border-radius: 20px;
 	background-color: rgba(0,0,0,0.7);
 	color: white;
+		font-size: 17px;
 }
 input[type="file"] {
 	display: none;
@@ -90,7 +91,7 @@ input[type="number"] {
 @media (min-width: 544px) {
 
 	.input {
-		font-size: 2.5vw;
+		font-size: 20px;
 	}
 
 }
