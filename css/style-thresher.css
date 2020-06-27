@@ -10,8 +10,8 @@ body {
 	-o-background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	/*height: 100%;*/
-	/*width: 100%;*/
+	height: 100vh;
+	width: 100vw;
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
