@@ -108,7 +108,23 @@ input[type="number"] {
 	color: white;
 	/*padding: 10px;*/
 }
-
+.steps-title {
+	/*color: #aabbff;*/
+}
+.thresh-title {
+	color: #ddddbb;
+}
+.vector-title {
+	color: #ddddbb;
+}
+.thresh-steps {
+	text-align: left;
+	color: #eeeeec;
+}
+.vector-steps {
+	text-align: left;
+	color: #eeeeec;
+}
 
 /*Bootstrap 4 breakpoints*/
 /* Small devices (landscape phones, 544px and up) */

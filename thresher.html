@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Image Thresholder</title>
+		<title>ImgThresVect</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
@@ -16,15 +16,45 @@
 			<div class="row">
 				<div class="col-1"></div>
 				<div class="col-10 header">
-					<h2 class="title">Image Thresholder</h2>
+					<h2 class="title">Thresh & Vect</h2>
+					<div class="steps-title"> 
+						<h2>Steps</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-6 thresh">
+							<div class="thresh-title">
+								<h4>Thresh</h4>
+							</div>
+							<div class="thresh-steps">
+								<ul>
+								<li>Upload the image to the thresholder below</li>
+									<li>Tweak the box height/width settings till the output image looks good</li>
+									<li>Click on download to save the image</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 vector">
+							<div class="vector-title">
+								<h4>Vect</h4>
+							</div>
+							<div class="vector-steps">
+								<ul>
+									<li>Use the Photopea tool below to vectorize the output</li>
+									<li>Upload the downloaded image: File -> Open </li>
+									<li>Vectorize using: Image -> Vectorize Bitmap -> Uncheck Segmentize -> Ok </li>
+									<li>Click on PNG/SVG to download as required</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<br>
 
 			<div class="content-container">
 				<div class="row">
-					<div class="col-1 col-md-2"></div>
-					<div class="col-10 col-md-8">
+					<div class="col-1 col-md-1"></div>
+					<div class="col-10 col-md-10">
 						<iframe class="vectorizer" src="https://www.Photopea.com"></iframe>
 					</div>
 				</div>
