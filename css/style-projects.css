@@ -103,7 +103,7 @@ h2 {
 .tabs {
 	background-color: rgba(0,0,0,1);
 	border-radius: 0px 0px 25px 25px;
-	font-family: 'Expletus Sans'
+	font-family: 'Expletus Sans';
 }
 .exp-heading {
 	background-color: rgba(49,150,246,0.8);
@@ -127,6 +127,7 @@ h2 {
 	background-color: rgba(200,200,200,0.7);
 }
 .empty-button {
+	cursor: pointer;
 	background-color: rgba(0,0,0,0);
 	border: none;
 	color: white;
