@@ -79,7 +79,7 @@ function loadTiles() {
 		var el = $("#im"+i);
 		var offset = el.offset().top;
 		if (scrolled + $(window).height() + yBuffer > offset && !loaded.has(i)) {
-			$("#im"+i).css("background-image", "url(\"../img/photography/"+i+".JPG\")");
+			$("#im"+i).css("background-image", "url(\"img/photography/"+i+".JPG\")");
 			loaded.add(i);
 		}
 	}
